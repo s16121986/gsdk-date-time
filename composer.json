@@ -1,0 +1,29 @@
+{
+  "name": "gsdk/date-time",
+  "type": "library",
+  "description": "Date time lib",
+  "version": "1.0.0",
+  "keywords": [
+	"gsdk"
+  ],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Sergey Guryanov",
+	  "email": "s16121986@yandex.ru"
+	}
+  ],
+  "require": {
+	"php": ">=8.0.2"
+  },
+  "require-dev": {
+  },
+  "conflict": {
+  },
+  "autoload": {
+	"psr-4": {
+	  "Gsdk\\DateTime\\": ""
+	}
+  },
+  "minimum-stability": "dev"
+}
